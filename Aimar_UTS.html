@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AimarUTS.css">
+    <link rel="shortcut icon" href="imagesUTS/daun.ico" type="images/ico">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Kegiatan</title>
+</head>
+
+<body>
+
+<div class="navbar">
+    <p id="sidebarToggle" class="logo">AyoKitaBisa.com</p>
+    <nav>
+        <ul class="nav_links">
+            <li><a class="anavbar_" onclick="window.location.href='Aimar_UTS.html'">Beranda</a></li>
+            <li class="dropdown">
+                <a onclick="window.location.href='Kegiatan.html'; return false;" class="dropdown">Kegiatan</a>
+                <div class="dropdown-content">
+                    <a class="dropdown-list" onclick="goToTargetDiv('Palestina')">Konflik Palestina</a>
+                    <a class="dropdown-list" onclick="goToTargetDiv('Papua')">Kelaparan Papua</a>
+                    <a class="dropdown-list"onclick="goToTargetDiv('Dhuafa')">Yatim & Dhuafa</a>
+                </div>                
+            </li>
+            <li><a class="anavbar" onclick="window.location.href='Tentang_Kami.html'">Tentang Kami</a></li>
+            <li><a class="anavbar" onclick="window.location.href='Galeri.html'">Galeri</a></li>
+            <li><a class="anavbar" onclick="window.location.href='Kontak.html'">Kontak</a></li>            
+        </ul>
+    </nav>
+    <button id="gabungbtn" onclick="window.location.href='Gabung.html'">Gabung</button>  
+</div>
+
+<div style="display:none" id="Sidebar">
+    <h1 class="sidebarakb">AyoKitaBisa.com</h1>
+    <div class="sidebartext">
+        Profil Pembuat Web:
+        <br>
+
+        <br>
+        Web ini dibuat untuk memenuhi tugas UTS oleh:
+        <br>
+        Aimar Moussa Priyatno 
+        <br>
+        (5A/IPI 11210251000103) 
+        <br>
+        Semester 5 Tahun Ajaran 2020/2021
+        <br>
+
+        <br>
+        <div class="sidebarimg">
+            <img class="sidebarimg_" src="imagesUTS/aimar.png">
+        </div>
+    </div>
+</div>
+
+<header>
+    <br>
+    <div id="imgmain">
+        <h1 class="headertext">
+            Marilah Bangun Dunia Untuk Hidup Yang Lebih Baik Lagi
+        </h1>
+        <br>
+        <p class="headertext2">
+            Bersama, <span class="ayokitabisa">AyoKitaBisa</span> sembuhkan dunia ini 
+        </p>
+        <div class="containerbtn">
+            <button id="gabungbtn2" onclick="window.location.href='Gabung.html'">
+                Gabung
+            </button>
+        </div>
+    </div>
+</header>
+<br>
+
+<div id="imgberanda" onclick="window.location.href='Kegiatan.html'">
+    <h1 class="textberanda">
+        Kegiatan
+    </h1>
+</div>
+<br>
+
+<div id="imgberanda" onclick="window.location.href='Tentang_Kami.html'">
+    <h1 class="textberanda">
+        Tentang Kami
+    </h1>
+</div>
+<br>
+
+<div id="imgberanda" onclick="window.location.href='Galeri.html'">
+    <h1 class="textberanda">
+        Galeri
+    </h1>
+</div>
+<br>
+
+<div id="imgberanda" onclick="window.location.href='Kontak.html'">
+    <h1 class="textberanda">
+        Kontak
+    </h1>
+</div>
+<br>
+
+<br>
+</div>
+<footer>
+    <div class="footer">
+       <h1 class="quotes">
+        وَلَا تَعَاوَنُوْا عَلَى الْاِثْمِ وَالْعُدْوَانِ ۖوَاتَّقُوا اللّٰهَ ۗاِنَّ اللّٰهَ شَدِيْدُ الْعِقَابِ
+       </h1>
+       <p class="quotes_">
+        “Saling Menolonglah kamu dalam melakukan kebajikan dan taqwa. 
+        Dan jangan saling menolong pada perbuatan yang dosa dan permusuhan. 
+        Bertakwalah kepada Allah SWT. Sebenarnya siksaan Allah SWT sangatlah pedih.”
+        <br>
+        (QS: Al Maidah ayat 2)
+       </p>
+       <hr>
+       <div class="footertext">
+        Designed by Aimar Moussa Priyatno
+        <br>
+        @2023-AyoKitaBisa
+        <br>
+
+        <br>
+        *Semua yang dilayankan di dalam web ini adalah fiktif.
+       </div>
+    </div>
+</footer>
+<script src="AimarUTSscript.js"></script>
+</body>
+</html>
